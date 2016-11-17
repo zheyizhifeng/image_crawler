@@ -1,0 +1,52 @@
+2016-08-21 13:30:33 [scrapy] INFO: Scrapy 1.0.5 started (bot: image_crawl)
+2016-08-21 13:30:33 [scrapy] INFO: Optional features available: ssl, http11
+2016-08-21 13:30:33 [scrapy] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'image_crawl.spiders', 'CONCURRENT_REQUESTS_PER_DOMAIN': 32, 'CONCURRENT_REQUESTS': 32, 'SPIDER_MODULES': ['image_crawl.spiders'], 'STATS_CLASS': 'image_crawl.statscol.graphite.RedisGraphiteStatsCollector', 'BOT_NAME': 'image_crawl', 'USER_AGENT': '', 'SCHEDULER': 'image_crawl.scrapy_redis.scheduler.Scheduler', 'LOG_FILE': 'logs/scrapy.log'}
+2016-08-21 13:30:33 [py.warnings] WARNING: /Users/CL/image_crawl/image_crawl/statscol/graphite.py:6: ScrapyDeprecationWarning: Module `scrapy.log` has been deprecated, Scrapy now relies on the builtin Python library for logging. Read the updated logging entry in the documentation to learn more.
+  from scrapy import log
+
+2016-08-21 13:30:33 [scrapy] INFO: Enabled extensions: CloseSpider, TelnetConsole, LogStats, CoreStats, SpiderState
+2016-08-21 13:30:33 [scrapy] INFO: Enabled downloader middlewares: GoogleCacheMiddleware, CookiesMiddleware, HttpAuthMiddleware, DownloadTimeoutMiddleware, RotateUserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, MetaRefreshMiddleware, HttpCompressionMiddleware, CrawleraMiddleware, RedirectMiddleware, ChunkedTransferMiddleware, DownloaderStats
+2016-08-21 13:30:33 [scrapy] INFO: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+2016-08-21 13:30:33 [scrapy] INFO: Enabled item pipelines: ImagesPipeline, ImageCrawlPipeline, RedisPipeline, MongoPipeline
+2016-08-21 13:30:33 [scrapy] INFO: Spider opened
+2016-08-21 13:30:33 [scrapy] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2016-08-21 13:30:33 [root] INFO: Using crawlera at http://proxy.crawlera.com:8010?noconnect (user: c3de7bf900c24eedb8a99564756a7260)
+2016-08-21 13:30:33 [scrapy] DEBUG: Telnet console listening on 127.0.0.1:6023
+2016-08-21 13:30:33 [scrapy] INFO: Closing spider (finished)
+2016-08-21 13:30:33 [py.warnings] WARNING: /Users/CL/image_crawl/image_crawl/statscol/graphite.py:159: ScrapyDeprecationWarning: log.msg has been deprecated, create a python logger and log through it instead
+  log.msg("Dumping Scrapy stats:\n" + pprint.pformat(self.get_stats()), spider=spider)
+
+2016-08-21 13:30:33 [scrapy] INFO: Dumping Scrapy stats:
+{'finish_reason': 'finished',
+ 'finish_time': '2016-08-21 05:30:33.221003',
+ 'log_count/DEBUG': '2',
+ 'log_count/INFO': '18',
+ 'log_count/WARNING': '1',
+ 'start_time': '2016-08-21 05:30:33.213083'}
+2016-08-21 13:30:33 [scrapy] INFO: Spider closed (finished)
+2016-08-21 13:32:34 [scrapy] INFO: Scrapy 1.0.5 started (bot: image_crawl)
+2016-08-21 13:32:34 [scrapy] INFO: Optional features available: ssl, http11
+2016-08-21 13:32:34 [scrapy] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'image_crawl.spiders', 'CONCURRENT_REQUESTS_PER_DOMAIN': 32, 'CONCURRENT_REQUESTS': 32, 'SPIDER_MODULES': ['image_crawl.spiders'], 'STATS_CLASS': 'image_crawl.statscol.graphite.RedisGraphiteStatsCollector', 'BOT_NAME': 'image_crawl', 'USER_AGENT': '', 'SCHEDULER': 'image_crawl.scrapy_redis.scheduler.Scheduler', 'LOG_FILE': 'logs/scrapy.log'}
+2016-08-21 13:32:34 [py.warnings] WARNING: /Users/CL/image_crawl/image_crawl/statscol/graphite.py:6: ScrapyDeprecationWarning: Module `scrapy.log` has been deprecated, Scrapy now relies on the builtin Python library for logging. Read the updated logging entry in the documentation to learn more.
+  from scrapy import log
+
+2016-08-21 13:32:34 [scrapy] INFO: Enabled extensions: CloseSpider, TelnetConsole, LogStats, CoreStats, SpiderState
+2016-08-21 13:32:34 [scrapy] INFO: Enabled downloader middlewares: GoogleCacheMiddleware, CookiesMiddleware, HttpAuthMiddleware, DownloadTimeoutMiddleware, RotateUserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, MetaRefreshMiddleware, HttpCompressionMiddleware, CrawleraMiddleware, RedirectMiddleware, ChunkedTransferMiddleware, DownloaderStats
+2016-08-21 13:32:34 [scrapy] INFO: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+2016-08-21 13:32:34 [scrapy] INFO: Enabled item pipelines: ImagesPipeline, ImageCrawlPipeline, RedisPipeline, MongoPipeline
+2016-08-21 13:32:34 [scrapy] INFO: Spider opened
+2016-08-21 13:32:34 [scrapy] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2016-08-21 13:32:34 [root] INFO: Using crawlera at http://proxy.crawlera.com:8010?noconnect (user: c3de7bf900c24eedb8a99564756a7260)
+2016-08-21 13:32:34 [scrapy] DEBUG: Telnet console listening on 127.0.0.1:6023
+2016-08-21 13:32:34 [scrapy] INFO: Closing spider (finished)
+2016-08-21 13:32:34 [py.warnings] WARNING: /Users/CL/image_crawl/image_crawl/statscol/graphite.py:159: ScrapyDeprecationWarning: log.msg has been deprecated, create a python logger and log through it instead
+  log.msg("Dumping Scrapy stats:\n" + pprint.pformat(self.get_stats()), spider=spider)
+
+2016-08-21 13:32:34 [scrapy] INFO: Dumping Scrapy stats:
+{'finish_reason': 'finished',
+ 'finish_time': '2016-08-21 05:32:34.304075',
+ 'log_count/DEBUG': '3',
+ 'log_count/INFO': '28',
+ 'log_count/WARNING': '2',
+ 'start_time': '2016-08-21 05:32:34.297057'}
+2016-08-21 13:32:34 [scrapy] INFO: Spider closed (finished)
