@@ -1,3 +1,6 @@
+# image_crawler
+distributed crawler of image in website
+
 * 安装必要软件包：
 
 * 安装python的安装包管理程序 pip及其他必要软件包
